@@ -9,13 +9,13 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
 
 # Inherit from ceres-c3 device
 $(call inherit-product, device/seewo/ceres-c3/device.mk)
 
 PRODUCT_DEVICE := ceres-c3
-PRODUCT_NAME := omni_ceres-c3
+PRODUCT_NAME := twrp_ceres-c3
 PRODUCT_BRAND := seewo
 PRODUCT_MODEL := XHS11-EA
 PRODUCT_MANUFACTURER := seewo
