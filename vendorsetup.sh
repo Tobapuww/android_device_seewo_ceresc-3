@@ -5,6 +5,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_ceres-c3-user
-add_lunch_combo omni_ceres-c3-userdebug
-add_lunch_combo omni_ceres-c3-eng
+COMMON_LUNCH_CHOICES twrp_ceres-c3-user
+COMMON_LUNCH_CHOICES twrp_ceres-c3-userdebug
+COMMON_LUNCH_CHOICES twrp_ceres-c3-eng
